@@ -14,7 +14,7 @@ public class DateFormatApp {
 
         System.out.println(dateRightNow.format(DateTimeFormatter.ofPattern("MM/dd/yyyy")));
         System.out.println(dateRightNow);
-
+        System.out.println(dateRightNow.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy")));
 
 
     }
